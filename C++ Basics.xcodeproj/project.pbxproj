@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		82B48F792BE401E900D22C6B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82B48F782BE401E900D22C6B /* main.cpp */; };
+		8295A1102BE5439800FEDF17 /* pointer-basics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8295A10E2BE5439800FEDF17 /* pointer-basics.cpp */; };
+		82B48F792BE401E900D22C6B /* array-basics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82B48F782BE401E900D22C6B /* array-basics.cpp */; };
+		82B48F812BE4082B00D22C6B /* structure-basics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82B48F7F2BE4082B00D22C6B /* structure-basics.cpp */; };
+		82B48F852BE40B3000D22C6B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82B48F842BE40B3000D22C6B /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8295A10E2BE5439800FEDF17 /* pointer-basics.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "pointer-basics.cpp"; sourceTree = "<group>"; };
+		8295A10F2BE5439800FEDF17 /* pointer-basics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pointer-basics.h"; sourceTree = "<group>"; };
 		82B48F752BE401E900D22C6B /* C++ Basics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++ Basics"; sourceTree = BUILT_PRODUCTS_DIR; };
-		82B48F782BE401E900D22C6B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		82B48F782BE401E900D22C6B /* array-basics.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "array-basics.cpp"; sourceTree = "<group>"; };
+		82B48F7F2BE4082B00D22C6B /* structure-basics.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "structure-basics.cpp"; sourceTree = "<group>"; };
+		82B48F842BE40B3000D22C6B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		82B48F862BE40C0700D22C6B /* structureBasics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = structureBasics.h; sourceTree = "<group>"; };
+		82B48F872BE40CEF00D22C6B /* arrayBasics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = arrayBasics.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8295A10D2BE5437F00FEDF17 /* pointer-basics */ = {
+			isa = PBXGroup;
+			children = (
+				8295A10E2BE5439800FEDF17 /* pointer-basics.cpp */,
+				8295A10F2BE5439800FEDF17 /* pointer-basics.h */,
+			);
+			path = "pointer-basics";
+			sourceTree = "<group>";
+		};
 		82B48F6C2BE401E900D22C6B = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +75,30 @@
 		82B48F772BE401E900D22C6B /* C++ Basics */ = {
 			isa = PBXGroup;
 			children = (
-				82B48F782BE401E900D22C6B /* main.cpp */,
+				8295A10D2BE5437F00FEDF17 /* pointer-basics */,
+				82B48F832BE40AA700D22C6B /* structure-basics */,
+				82B48F822BE40A9200D22C6B /* array-basics */,
+				82B48F842BE40B3000D22C6B /* main.cpp */,
 			);
 			path = "C++ Basics";
+			sourceTree = "<group>";
+		};
+		82B48F822BE40A9200D22C6B /* array-basics */ = {
+			isa = PBXGroup;
+			children = (
+				82B48F782BE401E900D22C6B /* array-basics.cpp */,
+				82B48F872BE40CEF00D22C6B /* arrayBasics.h */,
+			);
+			path = "array-basics";
+			sourceTree = "<group>";
+		};
+		82B48F832BE40AA700D22C6B /* structure-basics */ = {
+			isa = PBXGroup;
+			children = (
+				82B48F7F2BE4082B00D22C6B /* structure-basics.cpp */,
+				82B48F862BE40C0700D22C6B /* structureBasics.h */,
+			);
+			path = "structure-basics";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +158,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82B48F792BE401E900D22C6B /* main.cpp in Sources */,
+				82B48F812BE4082B00D22C6B /* structure-basics.cpp in Sources */,
+				82B48F792BE401E900D22C6B /* array-basics.cpp in Sources */,
+				8295A1102BE5439800FEDF17 /* pointer-basics.cpp in Sources */,
+				82B48F852BE40B3000D22C6B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

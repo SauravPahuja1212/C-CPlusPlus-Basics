@@ -1,4 +1,5 @@
 #include <iostream>
+#include "structureBasics.h"
 
 using namespace std;
 
@@ -10,7 +11,7 @@ struct Rectangle {
     int breadth;
 };
 
-int main() {
+int structureBasics() {
     
     //Here we have used above defined custom data type which we called structure
     //Values are assigned according to the sequence of data members declared in structure
@@ -18,5 +19,5 @@ int main() {
     Rectangle r1 = {10, 5};
     cout << "Value of length in rectangle is => " << r1.length << endl;
     
-    return 0;
+    return r1.length * r1.breadth;
 }

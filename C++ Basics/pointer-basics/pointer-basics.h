@@ -9,5 +9,8 @@
 #define pointer_basics_h
 
 #include <stdio.h>
+#include <stdlib.h>
+
+void pointerBasics();
 
 #endif /* pointer_basics_hpp */

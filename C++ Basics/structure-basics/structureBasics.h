@@ -8,5 +8,6 @@
 #ifndef structureBasics_h
 #define structureBasics_h
 
+int structureBasics();
 
 #endif /* structureBasics_h */

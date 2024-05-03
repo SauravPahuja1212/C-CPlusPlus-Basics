@@ -8,5 +8,6 @@
 #ifndef arrayBasics_h
 #define arrayBasics_h
 
+void arrayBasics();
 
 #endif /* arrayBasics_h */

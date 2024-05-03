@@ -6,7 +6,7 @@ using namespace std;
 //An array is collection of same type of values, for example if we want to have a collection of integers than we can have array of integers.
 //In array, we can have values of only similar type, once array is declared of a type then it will not be able to hold other type of values.
 
-int main() {
+void arrayBasics() {
     
     // PART A {
         /** Declaring an array  */
@@ -58,6 +58,4 @@ int main() {
         cout << "Element at index 0 in declarationAndInitializationIndividualElements is => " << declarationAndInitializationIndividualElementsArray[0] << endl;
         cout << "Element at index 2 in declarationAndInitializationIndividualElements is => " << declarationAndInitializationIndividualElementsArray[2] << endl;
     //}
-    
-    return 0;
 }
